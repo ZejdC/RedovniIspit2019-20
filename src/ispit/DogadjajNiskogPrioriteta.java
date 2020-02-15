@@ -6,7 +6,4 @@ public class DogadjajNiskogPrioriteta extends Dogadjaj {
     public DogadjajNiskogPrioriteta(String naziv, LocalDateTime of, LocalDateTime of1) throws NeispravanFormatDogadjaja {
         super(naziv,of,of1);
     }
-    public int prioritet(){
-        return -1;
-    }
 }
